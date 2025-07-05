@@ -1,6 +1,6 @@
 {
   "name": "@irfanshadikrishad/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard Prettier Configuration.",
   "main": "index.js",
   "scripts": {
