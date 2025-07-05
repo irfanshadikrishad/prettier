@@ -46,8 +46,6 @@ jobs:
           git push origin main
       - name: Install Dependencies
         run: npm ci
-      - name: Build Project
-        run: npm run build
       - name: Publish Package
         run: npm publish --provenance --access public
         env:
