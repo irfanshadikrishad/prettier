@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "@irfanshadikrishad/prettier"
+authors:
+  - name: "Irfan Shadik Rishad"
+    orcid: "0009-0001-6745-5291"
+date-released: "2025-07-05"
+repository-code: "https://github.com/irfanshadikrishad/prettier"
