@@ -2,7 +2,11 @@
   "name": "@irfanshadikrishad/prettier",
   "version": "1.0.2",
   "description": "Standard Prettier Configuration.",
+  "author": "Irfan Shadik Rishad",
+  "license": "ISC",
+  "type": "module",
   "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "format": "prettier ./ --write"
   },
@@ -10,14 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/irfanshadikrishad/prettier.git"
   },
-  "keywords": [
-    "Configuration",
-    "configs",
-    "prettier"
-  ],
-  "author": "Irfan Shadik Rishad",
-  "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/irfanshadikrishad/prettier/issues"
   },
@@ -28,8 +24,12 @@
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
-  "exports": "./index.js",
   "devDependencies": {
     "prettier": "^3.6.2"
-  }
+  },
+  "keywords": [
+    "configuration",
+    "configs",
+    "prettier"
+  ]
 }

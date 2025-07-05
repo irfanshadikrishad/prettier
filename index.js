@@ -1,3 +1,6 @@
+/**
+ * @type {import("prettier").Config}
+ */
 const config = {
   trailingComma: "es5",
   printWidth: 80,
@@ -8,7 +11,9 @@ const config = {
   quoteProps: "consistent",
   jsxSingleQuote: false,
   bracketSpacing: true,
-  objectWrap: "collapse",
+  objectWrap: "preserve",
+  proseWrap: "preserve",
+  htmlWhitespaceSensitivity: "css",
   bracketSameLine: false,
   arrowParens: "always",
   requirePragma: false,
@@ -17,6 +22,8 @@ const config = {
   endOfLine: "lf",
   embeddedLanguageFormatting: "auto",
   singleAttributePerLine: false,
+  vueIndentScriptAndStyle: true,
+  plugins: [],
 };
 
 export default config;
