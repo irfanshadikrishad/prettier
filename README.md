@@ -8,8 +8,8 @@ Standard Prettier Configuration.
 
 #### Prerequisites
 
-- NodeJS
-- npm
+- [NodeJS](https://nodejs.org/en/download)
+- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 #### Install w/
 
@@ -17,10 +17,10 @@ Standard Prettier Configuration.
 npm i @irfanshadikrishad/prettier --save-dev
 ```
 
-#### Add in your `package.json`
+#### Add this in your `package.json`
 
 ```json
-{ "prettier": "@irfanshadikrishad/prettier" }
+"prettier": "@irfanshadikrishad/prettier",
 ```
 
 #### Thanks for visiting. (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
