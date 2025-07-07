@@ -6,10 +6,10 @@ const config = {
   printWidth: 80,
   tabWidth: 2,
   semi: false,
-  singleQuote: false,
+  singleQuote: true,
+  jsxSingleQuote: true,
   useTabs: true,
   quoteProps: "consistent",
-  jsxSingleQuote: false,
   bracketSpacing: true,
   objectWrap: "preserve",
   proseWrap: "preserve",
@@ -23,7 +23,8 @@ const config = {
   embeddedLanguageFormatting: "auto",
   singleAttributePerLine: false,
   vueIndentScriptAndStyle: true,
-  plugins: [],
+  plugins: ["prettier-plugin-organize-imports"],
+  organizeImportsSkipDestructiveCodeActions: false,
 };
 
 export default config;
