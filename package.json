@@ -31,5 +31,8 @@
     "configuration",
     "configs",
     "prettier"
-  ]
+  ],
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^4.1.0"
+  }
 }
