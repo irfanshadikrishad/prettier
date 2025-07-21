@@ -8,7 +8,7 @@ const config = {
   semi: false,
   singleQuote: true,
   jsxSingleQuote: true,
-  useTabs: true,
+  useTabs: false, // uses space instead of tabs (fixes the github indent issue)
   quoteProps: "consistent",
   bracketSpacing: true,
   objectWrap: "preserve",
