@@ -33,6 +33,9 @@ const config = {
   tailwindFunctions: ["clsx", "tw"],
   tailwindPreserveDuplicates: false,
   tsdoc: true,
+  jsdocPreserveDescriptionIndentation: true,
+  jsdocSingleLineComment: false,
+  jsdocSeparateTagGroups: false,
   packageSortOrder: [
     "name",
     "description",
