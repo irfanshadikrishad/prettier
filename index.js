@@ -33,7 +33,7 @@ const config = {
   tailwindFunctions: ["clsx", "tw"],
   tailwindPreserveDuplicates: false,
   tsdoc: true,
-  jsdocPreserveDescriptionIndentation: true,
+  jsdocCommentLineStrategy: "multiline",
   jsdocSingleLineComment: false,
   jsdocSeparateTagGroups: false,
   packageSortOrder: [
