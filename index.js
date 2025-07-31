@@ -23,8 +23,24 @@ const config = {
   embeddedLanguageFormatting: "auto",
   singleAttributePerLine: false,
   vueIndentScriptAndStyle: true,
-  plugins: ["prettier-plugin-organize-imports"],
+  plugins: [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-jsdoc",
+    "prettier-plugin-packagejson",
+    "prettier-plugin-tailwindcss", // MUST come last (limitation)
+  ],
   organizeImportsSkipDestructiveCodeActions: false,
+  tailwindFunctions: ["clsx", "tw"],
+  tailwindPreserveDuplicates: false,
+  tsdoc: true,
+  packageSortOrder: [
+    "name",
+    "description",
+    "version",
+    "author",
+    "license",
+    "scripts",
+  ],
 };
 
 export default config;
