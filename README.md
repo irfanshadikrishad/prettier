@@ -23,4 +23,10 @@ npm i @irfanshadikrishad/prettier --save-dev
 "prettier": "@irfanshadikrishad/prettier",
 ```
 
+#### Included plugins
+
+- [prettier-plugin-organize-imports](https://www.npmjs.com/package/prettier-plugin-organize-imports)
+- [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
+- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
+
 #### Thanks for visiting. (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
