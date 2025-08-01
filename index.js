@@ -25,17 +25,12 @@ const config = {
   vueIndentScriptAndStyle: true,
   plugins: [
     "prettier-plugin-organize-imports",
-    "prettier-plugin-jsdoc",
     "prettier-plugin-packagejson",
     "prettier-plugin-tailwindcss", // MUST come last (limitation)
   ],
   organizeImportsSkipDestructiveCodeActions: false,
   tailwindFunctions: ["clsx", "tw"],
   tailwindPreserveDuplicates: false,
-  tsdoc: true,
-  jsdocCommentLineStrategy: "multiline",
-  jsdocSingleLineComment: false,
-  jsdocSeparateTagGroups: false,
   packageSortOrder: [
     "name",
     "description",
