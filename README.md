@@ -28,6 +28,5 @@ npm i @irfanshadikrishad/prettier --save-dev
 - [prettier-plugin-organize-imports](https://www.npmjs.com/package/prettier-plugin-organize-imports)
 - [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
-- [prettier-plugin-nginx](https://www.npmjs.com/package/prettier-plugin-nginx)
 
 #### Thanks for visiting. (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
