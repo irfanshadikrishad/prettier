@@ -26,7 +26,6 @@ const config = {
   plugins: [
     "prettier-plugin-organize-imports",
     "prettier-plugin-packagejson",
-    "prettier-plugin-nginx",
     "prettier-plugin-tailwindcss", // MUST come last (limitation)
   ],
   organizeImportsSkipDestructiveCodeActions: false,
