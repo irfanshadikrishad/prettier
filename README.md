@@ -4,7 +4,6 @@ Standard Prettier Configuration.
 
 ![NPM Version](https://img.shields.io/npm/v/%40irfanshadikrishad%2Fprettier?style=for-the-badge&labelColor=141b23&color=%2385c1dc)
 ![NPM Downloads](https://img.shields.io/npm/dw/%40irfanshadikrishad%2Fprettier?style=for-the-badge&labelColor=141b23&color=%2385c1dc)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/%40irfanshadikrishad%2Fprettier?style=for-the-badge&labelColor=141b23&color=%2385c1dc)
 
 #### Prerequisites
 
