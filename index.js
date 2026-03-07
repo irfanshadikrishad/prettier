@@ -18,7 +18,7 @@ const config = {
   arrowParens: "always",
   requirePragma: false,
   insertPragma: false,
-  checkIgnorePragma: false,
+  // checkIgnorePragma: false,  // no longer supported
   endOfLine: "lf",
   embeddedLanguageFormatting: "auto",
   singleAttributePerLine: false,
