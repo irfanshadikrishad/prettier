@@ -1,31 +1,11 @@
 {
   "name": "@irfanshadikrishad/prettier",
-  "version": "1.3.4",
   "description": "Standard Prettier Configuration.",
+  "version": "1.3.4",
   "author": "Irfan Shadik Rishad",
   "license": "ISC",
-  "type": "module",
-  "main": "index.js",
-  "exports": "./index.js",
   "scripts": {
     "format": "prettier ./ --write"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/irfanshadikrishad/prettier.git"
-  },
-  "bugs": {
-    "url": "https://github.com/irfanshadikrishad/prettier/issues"
-  },
-  "homepage": "https://github.com/irfanshadikrishad/prettier",
-  "publishConfig": {
-    "access": "public"
-  },
-  "peerDependencies": {
-    "prettier": ">=3.0.0"
-  },
-  "devDependencies": {
-    "prettier": "^3.8.3"
   },
   "keywords": [
     "configuration",
@@ -33,9 +13,32 @@
     "prettier",
     "code format"
   ],
+  "homepage": "https://github.com/irfanshadikrishad/prettier",
+  "bugs": {
+    "url": "https://github.com/irfanshadikrishad/prettier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfanshadikrishad/prettier.git"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.19"
+  },
   "dependencies": {
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-packagejson": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

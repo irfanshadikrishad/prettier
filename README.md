@@ -28,4 +28,10 @@ npm i @irfanshadikrishad/prettier --save-dev
 - [prettier-plugin-packagejson](https://www.npmjs.com/package/prettier-plugin-packagejson)
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss)
 
+#### Note
+
+This config enables `prettier-plugin-organize-imports` with destructive code actions.
+Unused imports may be removed when formatting supported JavaScript and TypeScript
+files.
+
 #### Thanks for visiting. (̿▀̿ ̿Ĺ̯̿̿▀̿ ̿)̄
