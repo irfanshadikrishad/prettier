@@ -1,7 +1,7 @@
 {
   "name": "@irfanshadikrishad/prettier",
   "description": "Standard Prettier Configuration.",
-  "version": "1.3.4",
+  "version": "1.3.6",
   "author": "Irfan Shadik Rishad",
   "license": "ISC",
   "scripts": {
