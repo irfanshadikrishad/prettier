@@ -2,43 +2,43 @@
  * @type {import("prettier").Config}
  */
 const config = {
-  trailingComma: "es5",
+  trailingComma: 'es5',
   printWidth: 80,
   tabWidth: 2,
   semi: false,
   singleQuote: true,
   jsxSingleQuote: true,
   useTabs: false, // uses space instead of tabs (fixes the github indent issue)
-  quoteProps: "consistent",
+  quoteProps: 'consistent',
   bracketSpacing: true,
-  objectWrap: "preserve",
-  proseWrap: "preserve",
-  htmlWhitespaceSensitivity: "css",
+  objectWrap: 'preserve',
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'css',
   bracketSameLine: false,
-  arrowParens: "always",
+  arrowParens: 'always',
   requirePragma: false,
   insertPragma: false,
   // checkIgnorePragma: false,  // no longer supported
-  endOfLine: "lf",
-  embeddedLanguageFormatting: "auto",
+  endOfLine: 'lf',
+  embeddedLanguageFormatting: 'auto',
   singleAttributePerLine: false,
   vueIndentScriptAndStyle: true,
   plugins: [
-    "prettier-plugin-organize-imports",
-    "prettier-plugin-packagejson",
-    "prettier-plugin-tailwindcss", // MUST come last (limitation)
+    'prettier-plugin-organize-imports',
+    'prettier-plugin-packagejson',
+    'prettier-plugin-tailwindcss', // MUST come last (limitation)
   ],
   organizeImportsSkipDestructiveCodeActions: false,
-  tailwindFunctions: ["clsx", "tw"],
+  tailwindFunctions: ['clsx', 'tw'],
   tailwindPreserveDuplicates: false,
   packageSortOrder: [
-    "name",
-    "description",
-    "version",
-    "author",
-    "license",
-    "scripts",
+    'name',
+    'description',
+    'version',
+    'author',
+    'license',
+    'scripts',
   ],
-};
+}
 
-export default config;
+export default config
